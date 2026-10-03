@@ -1,0 +1,134 @@
+:root {
+            --primary-color: #3498db;
+            --secondary-color: #2980b9;
+            --accent-color: #e74c3c;
+            --display-color: #2c3e50;
+            --button-text: #ecf0f1;
+            --button-hover: #34495e;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        .calculator {
+            width: 320px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            background-color: white;
+        }
+
+        .display {
+            padding: 20px;
+            text-align: right;
+            background-color: var(--display-color);
+            color: white;
+            position: relative;
+        }
+
+        .previous-operand {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.7);
+            height: 24px;
+            overflow: hidden;
+            word-wrap: break-word;
+        }
+
+        .current-operand {
+            font-size: 2.5rem;
+            margin-top: 10px;
+            word-wrap: break-word;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1px;
+            background-color: #ddd;
+        }
+
+        button {
+            border: none;
+            outline: none;
+            padding: 20px 0;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            background-color: white;
+        }
+
+        button:hover {
+            background-color: var(--button-hover);
+            color: var(--button-text);
+        }
+
+        .operator {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .operator:hover {
+            background-color: var(--secondary-color);
+        }
+
+        .equals {
+            background-color: var(--accent-color);
+            color: white;
+        }
+
+        .equals:hover {
+            filter: brightness(1.1);
+        }
+
+        .span-2 {
+            grid-column: span 2;
+        }
+
+        @media (max-width: 350px) {
+            .calculator {
+                width: 100%;
+                border-radius: 0;
+            }
+        }
+
+        button:active {
+            transform: scale(0.95);
+        }
+
+        .clear-btn {
+            position: relative;
+        }
+
+        .clear-btn::after {
+            content: "Press 'C' on keyboard";
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #333;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.8rem;
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: none;
+            white-space: nowrap;
+        }
+
+        .clear-btn:hover::after {
+            opacity: 1;
+        }
+   
