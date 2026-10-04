@@ -71,8 +71,3 @@ Enter / =   → Calculate
 Escape      → Clear
 Backspace   → Delete
 ```
-## Responsive Design
-
-The calculator adapts to smaller screens using a CSS media query. On screens narrower than 350px, the calculator expands to the available width. style
-
-
