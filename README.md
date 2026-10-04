@@ -71,20 +71,6 @@ Enter / =   → Calculate
 Escape      → Clear
 Backspace   → Delete
 ```
-
-## Core Logic
-
-The calculator maintains four main states:
-
-```javascript
-currentOperand
-previousOperand
-operation
-resetScreen
-```
-
-These variables control the current value, previous value, selected operation, and whether the display should reset for the next number. script
-
 ## Responsive Design
 
 The calculator adapts to smaller screens using a CSS media query. On screens narrower than 350px, the calculator expands to the available width. style
