@@ -16,7 +16,7 @@ A responsive, keyboard-friendly, and modern **Calculator Web Application** built
 - Modern and minimal user interface
 - Hover and button interaction effects
 
-The calculator's JavaScript handles number input, operations, calculation, clearing, deletion, keyboard events, and display updates. script script
+The calculator's JavaScript handles number input, operations, calculation, clearing, deletion, keyboard events, and display updates. 
 
 ## Tech Stack
 
@@ -37,7 +37,7 @@ The calculator's JavaScript handles number input, operations, calculation, clear
 | Clear | `AC` | `Escape` |
 | Delete | `DEL` | `Backspace` |
 
-The HTML interface includes dedicated number, operator, clear, delete, decimal, and equals buttons. index index
+The HTML interface includes dedicated number, operator, clear, delete, decimal, and equals buttons.
 
 ## Project Structure
 
@@ -52,9 +52,9 @@ Calculator/
 
 ## UI Design
 
-The calculator uses a centered layout with a gradient page background, dark display area, grid-based buttons, and responsive sizing. style style
+The calculator uses a centered layout with a gradient page background, dark display area, grid-based buttons, and responsive sizing. 
 
-The interface also includes different visual styling for operators and the equals button, along with hover and active effects. style
+The interface also includes different visual styling for operators and the equals button, along with hover and active effects. 
 
 ## Keyboard Controls
 
