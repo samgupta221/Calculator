@@ -50,34 +50,6 @@ Calculator/
 └── README.md
 ```
 
-## How to Run
-
-### 1. Clone the repository
-
-```bash
-git clone <your-repository-url>
-```
-
-### 2. Open the project
-
-Navigate to the project folder:
-
-```bash
-cd Calculator
-```
-
-### 3. Run the application
-
-Simply open:
-
-```text
-index.html
-```
-
-in any modern web browser.
-
-No backend or package installation is required.
-
 ## UI Design
 
 The calculator uses a centered layout with a gradient page background, dark display area, grid-based buttons, and responsive sizing. style style
@@ -117,13 +89,4 @@ These variables control the current value, previous value, selected operation, a
 
 The calculator adapts to smaller screens using a CSS media query. On screens narrower than 350px, the calculator expands to the available width. style
 
-## Future Improvements
 
-- Calculation history
-- Percentage operation
-- Positive/negative toggle
-- Scientific calculator mode
-- Dark/light theme switch
-- Memory functions
-- Improved error handling for division by zero
-- Deploy the project using GitHub Pages or Netlify
